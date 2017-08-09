@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="nav">
+    <ul>
+     <li><a href="#about">About</a></li>
+     <li><a href="#portfolio">Portfolio</a></li>
+     <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="page1">
+    <a id="about" class="smooth"></a>
+    <div id="intro">Hi! My name is Jonathan.</div>
+  </div>
+
+  <div id="page2">
+    <a id="portfolio" class="smooth"></a>
+      Portfolio page content goes here.
+  </div>
+
+  <div id="page3">
+    <a id="contact" class="smooth"></a>
+      Contact page content goes here.
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+  <script>
+  $('.smooth').on('click', function() {
+      $.smoothScroll({
+          scrollElement: $('body'),
+          scrollTarget: '#' + this.id
+      });
+
+      return false;
+  });
+  </script>
+</body>
+</html>

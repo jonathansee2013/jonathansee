@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+}
+
+#nav {
+  position: fixed;
+  opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    display: block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#page1, #page2, #page3 {
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page1 {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a6/ea/54/a6ea5493d26be3037f8febeeeee4eaac.jpg);
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+#intro {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#page2 {
+  background-color: #28464B;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/cb/f4/ae/cbf4aebfe0938c9e1ea416d2da22703b.jpg)
+}
+
+#page3 {
+  background-color: #949B96;
+  background-image: url(http://www.mcpaz.com/wp-content/uploads/2014/02/landscapes-architecture-france-bridges-millau-viaduct-modern-viaduct-canon-eos-5d-2560x1600-hd-wallpaper.jpg)
+}
