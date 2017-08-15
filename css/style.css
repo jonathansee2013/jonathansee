@@ -1,3 +1,5 @@
+
+
 body {
   font-family: Arial;
 }
@@ -38,7 +40,7 @@ li a {
 }
 
 #page1 {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a6/ea/54/a6ea5493d26be3037f8febeeeee4eaac.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a6/ea/54/a6ea5493d26be3037f8febeeeee4eaac.jpg) !important;
   color: white;
   font-size: 50px;
   text-align: center;
