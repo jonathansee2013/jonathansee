@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #083D77;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+}
+
+#header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+  width: 200px;
+  height: 60px;
+  margin: 20px;
+  color: #FFF1D0;
+}
+
+nav {
+  float: right;
+  padding: 35px 20px 0 0;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 10px;
+  float: left;
+  font-size: 110%;
+}
+
+nav ul li a {
+  color: #EBEBD3;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.pages {
+  width: 100vw;
+  height: 100vh;
+}
+
+#intro {
+  background-color: #F4D35E;
+  text-align: center;
+}
+
+#intro h1 {
+  padding-top: 50vh;
+  font-size: 400%;
+}
+
+#about {
+  background-color: #F95738;
+  text-align: center;
+}
+
+#about h2 {
+  padding-top: 40vh;
+  font-size: 300%;
+}
+
+#about h3 {
+  margin-top: 2%;
+  font-size: 300%;
+}
+
+#skills {
+  background-color: #EE964B;
+  text-align: center;
+}
+
+#skills h3 {
+  padding-top: 30vh;
+  font-size: 300%;
+}
+
+#skills ul li {
+  display: inline-block;
+}
+
+#skills ul li i {
+  font-size: 245%;
+  padding: 2% 6%;
+}
+
+#works {
+  background-color: #8FC0A9;
+}
+
+#contact {
+  background-color: #FE4A49;
+}
+
+@media screen and (max-width: 768px) {
+  #intro h1 {
+    font-size: 200%;
+  }
+
+  #about h2 {
+    font-size: 240%;
+  }
+
+  #about h3 {
+    font-size: 180%;
+  }
+}
