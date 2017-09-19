@@ -90,21 +90,53 @@ nav ul li a {
 }
 
 #skills h3 {
-  padding-top: 30vh;
+  padding-top: 25vh;
+  padding-bottom: 3vh;
   font-size: 300%;
 }
 
 #skills ul li {
   display: inline-block;
+  padding: 2% 6%;
 }
 
 #skills ul li i {
-  font-size: 245%;
-  padding: 2% 6%;
+  font-size: 600%;
 }
 
 #works {
   background-color: #8FC0A9;
+  padding: 25vh 0;
+  text-align: center;
+}
+
+#works h3 {
+  font-size: 300%;
+  padding: 5vh 0;
+}
+
+.project {
+  /*display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-gap: 1em;*/
+}
+
+.project > .projects {
+  display: inline-block;
+  border: 1px solid brown;
+  border-radius: 5px;
+  width: 22%;
+  margin: 1%;
+  height: 50%;
+}
+
+.content {
+  padding: 1%;
+}
+
+.title {
+  font-size: 150%;
+  padding-bottom: 3%;
 }
 
 #contact {
@@ -123,4 +155,30 @@ nav ul li a {
   #about h3 {
     font-size: 180%;
   }
+
+  #skills ul li i {
+    font-size: 400%;
+  }
+
+  #works {
+    padding-top: 20vh;
+  }
+
+  #works h3 {
+    font-size: 150%;
+    padding: 5vh 0;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  .title {
+    font-size: 100%;
+  }
+
+  .content > p {
+    font-size: 90%;
+  }
+
 }
