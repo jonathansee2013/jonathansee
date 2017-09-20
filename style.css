@@ -60,7 +60,8 @@ nav ul li a {
 }
 
 #intro {
-  background-color: #F4D35E;
+  /*background-color: #F4D35E;*/
+  background-color: #F0F0F0;
   text-align: center;
 }
 
@@ -85,7 +86,8 @@ nav ul li a {
 }
 
 #skills {
-  background-color: #EE964B;
+  /*background-color: #EE964B;*/
+  background-color: #F0F0F0;
   text-align: center;
 }
 
@@ -106,32 +108,37 @@ nav ul li a {
 
 #works {
   background-color: #8FC0A9;
-  padding: 25vh 0;
   text-align: center;
 }
 
 #works h3 {
   font-size: 300%;
-  padding: 5vh 0;
+  padding-top: 25vh;
 }
 
-.project {
-  /*display: grid;
-  grid-template-columns: repeat (4, 1fr);
-  grid-gap: 1em;*/
+.projects {
+  margin: 3% 10% 0 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
 }
 
-.project > .projects {
-  display: inline-block;
+.projects > .project {
   border: 1px solid brown;
+  background-color: #EBEBD3;
   border-radius: 5px;
-  width: 22%;
-  margin: 1%;
-  height: 50%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .content {
-  padding: 1%;
+  padding: 2%;
 }
 
 .title {
@@ -139,8 +146,13 @@ nav ul li a {
   padding-bottom: 3%;
 }
 
+.link {
+  padding-bottom: 0;
+}
+
 #contact {
-  background-color: #FE4A49;
+  /*background-color: #FE4A49;*/
+  background-color: #F0F0F0;
 }
 
 @media screen and (max-width: 768px) {
@@ -170,8 +182,31 @@ nav ul li a {
   }
 
   .projects {
-    display: block;
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
   }
+
+  .project {
+    /*display: block;*/
+  }
+
+  /*.projects {
+    margin: 3% 10% 0 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .projects > .project {
+    border: 1px solid brown;
+    border-radius: 5px;
+    min-height: 100%;
+  }*/
+
 
   .title {
     font-size: 100%;
@@ -180,5 +215,19 @@ nav ul li a {
   .content > p {
     font-size: 90%;
   }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .projects {
+    margin: 0 10%;
+    display: block;
+  }
+
+  .project {
+    margin: 2%;
+  }
+
 
 }
