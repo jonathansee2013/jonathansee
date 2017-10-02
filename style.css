@@ -380,4 +380,12 @@ fieldset {
 		margin: 0 auto;
 	}
 
+	#contact-me {
+		padding-top: 7vh;
+	}
+
+	#container {
+		margin: 12%;
+	}
+
 }
