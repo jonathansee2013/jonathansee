@@ -128,9 +128,9 @@ nav ul li a {
 }
 
 .projects > .project {
-  border: 3px solid brown;
+  border: 1px solid #aaa;
   background-color: #EBEBD3;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   height: auto;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -143,8 +143,8 @@ nav ul li a {
 }
 
 img {
-  border-bottom: 3px solid brown;
-	border-radius: 7px 7px 0 0;
+  border-bottom: 1px solid #aaa;
+	/*border-radius: 7px 7px 0 0;*/
   max-width: 100%;
   max-height: auto;
 }
@@ -210,7 +210,6 @@ img {
 }
 
 fieldset {
-  /*border: medium none !important;*/
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
@@ -274,7 +273,7 @@ fieldset {
   border: 1px solid #aaa;
 }
 
-/*::-webkit-input-placeholder {
+::-webkit-input-placeholder {
   color: #888;
 }
 
@@ -288,7 +287,7 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
-}*/
+}
 
 @media screen and (max-width: 768px) {
   #intro h1 {
@@ -321,7 +320,7 @@ fieldset {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2em;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(120px, auto);
   }
 
   .project {
@@ -356,25 +355,29 @@ fieldset {
 
 @media screen and (max-width: 480px) {
 
+	#works {
+		height: 120vh;
+	}
+
+	#works h3 {
+		font-size: 150%;
+		padding: 5vh 0;
+	}
+
   .projects {
     /*display: block;*/
 		grid-template-columns: 1fr;
   }
 
   .project {
-    margin: 2%;
-		/*width: auto;*/
+    margin: 0 auto;
+		width: 2%;
   }
 
 	img {
 		max-height: auto;
-		max-width: 70%;
+		max-width: 100%;
 		margin: 0 auto;
 	}
-
-	#works h3 {
-    font-size: 150%;
-    padding: 5vh 0;
-  }
 
 }
