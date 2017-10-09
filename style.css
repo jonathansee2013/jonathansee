@@ -183,6 +183,41 @@ img {
 	text-align: center;
 }
 
+/*#contact-wrapper {
+	width: 100%;
+}*/
+
+.side {
+	text-align: center;
+	width: 50%;
+	height: auto;
+}
+
+#left-side {
+	background-color: green;
+	float: left;
+	text-align: center;
+}
+
+#contact-details {
+	margin: 0 auto;
+	display: table;
+}
+
+#contact-details li {
+	text-align: left;
+}
+
+.icon-wrap {
+	font-size: 250%;
+	padding: 2%;
+}
+
+#right-side {
+	background-color: red;
+	float: right;
+}
+
 @media screen and (max-width: 768px) {
   #intro h1 {
     font-size: 200%;
