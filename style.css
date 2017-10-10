@@ -226,36 +226,6 @@ img {
 		padding: 5vh 0;
 	}
 
-	.side {
-		text-align: center;
-		width: 100%;
-		height: auto;
-	}
-
-	#left-side {
-		text-align: center;
-	}
-
-	#contact-details {
-		margin: 0 auto;
-
-	}
-
-	#left-side {
-		padding-bottom: 5%;
-	}
-
-	.icon-contact {
-		font-size: 150%;
-		padding: 2%;
-	}
-
-	#right-side {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
 }
 
 /*====================================*/
@@ -311,6 +281,35 @@ img {
 		padding: 5vh 0;
 	}
 
+	.side {
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
+
+	#left-side {
+		text-align: center;
+	}
+
+	#contact-details {
+		margin: 0 auto;
+
+	}
+
+	#left-side {
+		padding-bottom: 5%;
+	}
+
+	.icon-contact {
+		font-size: 150%;
+		padding: 2%;
+	}
+
+	#right-side {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 /*====================================*/
@@ -472,7 +471,6 @@ img {
 	}
 
 	#left-side {
-		*/
 		text-align: center;
 	}
 
