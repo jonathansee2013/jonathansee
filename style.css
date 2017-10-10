@@ -11,6 +11,8 @@ body {
   color: #404040;
 }
 
+/*HEADER*/
+
 header {
   background-color: #083D77;
   height: auto;
@@ -62,6 +64,8 @@ nav ul li a {
   height: 100vh;
 }
 
+/*PAGE 1*/
+
 #intro {
   /*background-color: #F4D35E;*/
   background-color: #F0F0F0;
@@ -72,6 +76,8 @@ nav ul li a {
   padding-top: 50vh;
   font-size: 400%;
 }
+
+/*PAGE 2*/
 
 #about {
   background-color: #F95738;
@@ -87,6 +93,8 @@ nav ul li a {
   margin-top: 2%;
   font-size: 300%;
 }
+
+/*PAGE 3*/
 
 #skills {
   /*background-color: #EE964B;*/
@@ -108,6 +116,8 @@ nav ul li a {
 #skills ul li i {
   font-size: 600%;
 }
+
+/*PAGE 4*/
 
 #works {
   background-color: #8FC0A9;
@@ -171,6 +181,8 @@ img {
   padding-bottom: 0;
 }*/
 
+/*PAGE 5*/
+
 #contact-me {
   /*background-color: #FE4A49;*/
   background-color: #F0F0F0;
@@ -183,10 +195,6 @@ img {
 	text-align: center;
 }
 
-/*#contact-wrapper {
-	width: 100%;
-}*/
-
 .side {
 	text-align: center;
 	width: 50%;
@@ -194,7 +202,6 @@ img {
 }
 
 #left-side {
-	background-color: green;
 	float: left;
 	text-align: center;
 }
@@ -205,23 +212,28 @@ img {
 }
 
 #contact-details li {
-	text-align: left;
+	/*text-align: left;*/
 }
 
-.icon-wrap {
+.icon-contact {
 	font-size: 250%;
-	padding: 2%;
+	padding: 5%;
 }
 
 #right-side {
-	background-color: red;
 	float: right;
 }
 
+/*====================================*/
 @media screen and (max-width: 768px) {
+
+/*PAGE 1*/
+
   #intro h1 {
     font-size: 200%;
   }
+
+/*PAGE 2*/
 
   #about h2 {
     font-size: 240%;
@@ -231,16 +243,20 @@ img {
     font-size: 180%;
   }
 
+/*PAGE 3*/
+
   #skills ul li i {
     font-size: 400%;
   }
+
+/*PAGE 4*/
 
   #works {
     padding-top: 20vh;
   }
 
   #works h3 {
-    font-size: 150%;
+    font-size: 200%;
     padding: 5vh 0;
   }
 
@@ -280,9 +296,58 @@ img {
     font-size: 90%;
   }
 
+/*PAGE 5*/
+
+	#contact-me {
+		padding-top: 20vh;
+	}
+
+	#contact-me h3 {
+		font-size: 200%;
+		padding: 5vh 0;
+	}
+
+	.side {
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
+
+	#left-side {
+		*/
+		text-align: center;
+	}
+
+	#contact-details {
+		margin: 0 auto;
+
+	}
+
+	#contact-details li {
+		/*text-align: left;*/
+	}
+
+	#left-side {
+		padding-bottom: 5%;
+	}
+
+	.icon-contact {
+		font-size: 150%;
+		padding: 2%;
+	}
+
+	#right-side {
+		*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
 }
 
+/*====================================*/
 @media screen and (max-width: 480px) {
+
+/*PAGE 4*/
 
 	#works {
 		height: 120vh;
@@ -309,12 +374,44 @@ img {
 		margin: 0 auto;
 	}
 
+/*PAGE 5*/
+
 	#contact-me {
-		padding-top: 7vh;
+		padding-top: 20vh;
 	}
 
-	#container {
-		margin: 12%;
+	#contact-me h3 {
+		font-size: 150%;
+		padding: 5vh 0;
 	}
 
+	.side {
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
+
+	#left-side {
+		*/
+		text-align: center;
+	}
+
+	#contact-details {
+		margin: 0 auto;
+	}
+
+	#left-side {
+		padding-bottom: 5%;
+	}
+
+	.icon-contact {
+		font-size: 100%;
+		padding: 2%;
+	}
+
+	#right-side {
+		*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
 }
