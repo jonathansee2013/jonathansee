@@ -163,23 +163,11 @@ img {
   padding: 2px 16px;
 }
 
-/*.content {
-  padding: 2%;
-}*/
-
-/*p {
-  height: 100%;
-}*/
-
 .title {
   font-size: 150%;
   padding-top: 3%;
   vertical-align: middle;
 }
-
-/*.link {
-  padding-bottom: 0;
-}*/
 
 /*PAGE 5*/
 
@@ -225,7 +213,108 @@ img {
 }
 
 /*====================================*/
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 1600px) {
+
+	/*PAGE 5*/
+
+	#contact-me {
+		padding-top: 20vh;
+	}
+
+	#contact-me h3 {
+		font-size: 300%;
+		padding: 5vh 0;
+	}
+
+	.side {
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
+
+	#left-side {
+		text-align: center;
+	}
+
+	#contact-details {
+		margin: 0 auto;
+
+	}
+
+	#left-side {
+		padding-bottom: 5%;
+	}
+
+	.icon-contact {
+		font-size: 150%;
+		padding: 2%;
+	}
+
+	#right-side {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+}
+
+/*====================================*/
+@media only screen and (max-width: 1024px) {
+
+/*PAGE 3*/
+
+	#skills {
+		height: 60vh;
+		padding-top: 20vh;
+	}
+
+	#skills h3 {
+		font-size: 200%;
+    padding: 5vh 0;
+	}
+
+	#skills ul li i {
+    font-size: 400%;
+  }
+
+/*PAGE 4*/
+
+	#works {
+    padding-top: 20vh;
+  }
+
+  #works h3 {
+    font-size: 200%;
+    padding: 5vh 0;
+  }
+
+	.projects {
+		margin: 3% 10% 0 10%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1em;
+		grid-auto-rows: minmax(80px, auto);
+	}
+
+	.title {
+		font-size: 100%;
+	}
+
+	.content > p {
+		font-size: 90%;
+	}
+
+	/*PAGE 5*/
+
+	#contact-me h3 {
+		font-size: 200%;
+		padding: 5vh 0;
+	}
+
+}
+
+/*====================================*/
+@media only screen and (max-width: 768px) {
 
 /*PAGE 1*/
 
@@ -245,6 +334,8 @@ img {
 
 /*PAGE 3*/
 
+
+
   #skills ul li i {
     font-size: 400%;
   }
@@ -261,32 +352,12 @@ img {
   }
 
   .projects {
-    margin: 0 10%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2em;
-    grid-auto-rows: minmax(120px, auto);
-  }
-
-  .project {
-    /*display: block;*/
-    height: auto;
-  }
-
-  /*.projects {
     margin: 3% 10% 0 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 3em;
+    grid-auto-rows: minmax(80px, auto);
   }
-
-  .projects > .project {
-    border: 1px solid brown;
-    border-radius: 5px;
-    min-height: 100%;
-  }*/
-
 
   .title {
     font-size: 100%;
@@ -314,21 +385,13 @@ img {
 	}
 
 	#left-side {
-		*/
 		text-align: center;
+		padding-bottom: 5%;
 	}
 
 	#contact-details {
 		margin: 0 auto;
 
-	}
-
-	#contact-details li {
-		/*text-align: left;*/
-	}
-
-	#left-side {
-		padding-bottom: 5%;
 	}
 
 	.icon-contact {
@@ -337,20 +400,37 @@ img {
 	}
 
 	#right-side {
-		*/
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
 
 }
 
 /*====================================*/
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+
+/*PAGE 3*/
+
+	#skills {
+		height: 60vh;
+		padding-top: 20vh;
+	}
+
+	#skills h3 {
+		font-size: 150%;
+		padding: 5vh 0;
+	}
+
+  #skills ul li i {
+    font-size: 400%;
+  }
 
 /*PAGE 4*/
 
 	#works {
-		height: 120vh;
+		height: 130vh;
+		padding-top: 20vh;
 	}
 
 	#works h3 {
@@ -359,8 +439,8 @@ img {
 	}
 
   .projects {
-    /*display: block;*/
 		grid-template-columns: 1fr;
+		grid-gap: 3em;
   }
 
   .project {
@@ -410,8 +490,8 @@ img {
 	}
 
 	#right-side {
-		*/
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
 }
