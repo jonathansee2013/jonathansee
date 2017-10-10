@@ -129,6 +129,26 @@ nav ul li a {
   padding-top: 25vh;
 }
 
+.project .card {
+	transition: 0.3s;
+}
+
+.project {
+  height: 64px;
+  font: normal normal 700 1em/4em Arial,sans-serif;
+  overflow: hidden;
+  width: 200px;
+  background-color: #3b5998;
+}
+
+.card {
+	margin-top: 0em;
+}
+
+.project:hover .card {
+	margin-top: -20em;
+}
+
 .projects {
   margin: 3% 10% 0 10%;
   display: grid;
