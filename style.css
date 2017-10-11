@@ -510,16 +510,22 @@ button.source:hover {
 @media only screen and (max-width: 602px) {
 
 	#logo {
-	  float: left;
-	  width: 200px;
-	  height: 60px;
-	  margin: 20px;
-	  color: #FFF1D0;
+	  /*float: left;*/
+	  /*width: 200px;
+	  height: 60px;*/
+	  margin: auto;
+	  /*color: #FFF1D0;*/
 	  text-decoration: none;
-	  padding-top: 25px;
+		text-align: center;
+	  /*padding-top: 25px;*/
 	}
 
+	nav {
+	  float: right;
+	  padding: 20px 20px 10px 0;
+	}
 
+}
 
 /*====================================*/
 @media only screen and (max-width: 480px) {
