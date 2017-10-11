@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio - Jonathan See</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 <body>
@@ -34,12 +36,17 @@
     <a class="smooth"></a>
     <h2>I'm a Sydney-based web developer.</h2>
     <h3>I like to:</h3>
-    <ul>
-      <li><img src="">Code</li>
-      <li><img src="">Travel</li>
-      <li><img src="">Eat</li>
-      <li><img src="">Learn Spanish</li>
-    </ul>
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides w3-animate-top" src="img/Coding_image.png" style="width:100%">
+      <img class="mySlides w3-animate-top" src="img/Travel_image.jpg" style="width:100%">
+      <img class="mySlides w3-animate-top" src="img/Bandera_Spain_image.jpg" style="width:100%">
+    </div>
+
+    <!-- <ul>
+      <li><img src="img/Coding_image.png">Code</li>
+      <li><img src="img/Travel_image.jpg">Travel</li>
+      <li><img src="img/Bandera_Spain_image.jpg">Learn Spanish</li>
+    </ul> -->
   </div>
 
   <div class="pages" id="skills">
@@ -69,68 +76,43 @@
           <img src="img/tictactoe.png">
           <div class="title-box">
             <h4 class="title">Tic Tac Toe</h4>
-          </div>
-        </div>
-
-        <div class="hovered">
-          <h4 class="title">Tic Tac Toe</h4>
-            <p>A game for 2 players, X and O, take turns marking the spaces in a 3×3 grid. The player who places 3 of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
+            <p class="card-text">A game for 2 players, X and O, take turns marking the spaces in a 3×3 grid. The player who places 3 of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
             <div class="link">
-              <a href="https://jonathansee2013.github.io/tictactoe/" target="_blank">Demo</a>
-              <a href="https://github.com/jonathansee2013/tictactoe" target="_blank">Source</a>
+              <button><a href="https://jonathansee2013.github.io/tictactoe/" target="_blank">Demo</a></button>
+              <button><a href="https://github.com/jonathansee2013/tictactoe" target="_blank">Source</a></button>
             </div>
+          </div>
         </div>
+      </div>
 
-      </div>
-        <!-- <div class="content">
-        <h4 class="title">Tic Tac Toe</h4>
-          <p>A game for 2 players, X and O, take turns marking the spaces in a 3×3 grid. The player who places 3 of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
-          <div class="link">
-            <a href="https://jonathansee2013.github.io/tictactoe/" target="_blank">Demo</a>
-            <a href="https://github.com/jonathansee2013/tictactoe" target="_blank">Source</a>
-          </div>
-        </div> -->
-      <!-- </div> -->
-      <!-- <div class="project" id="project1">
-        <div class="content">
-        <h4 class="title">Renta Casa</h4>
-          <p>A property review site where landlords posts their properties for rent. Tenants who stayed there can leave reviews of such properties and landlords can also post reviews of their tenants.</p>
-          <div class="link">
-            <a href="https://rentacasa.herokuapp.com/login" target="_blank">Demo</a>
-            <a href="https://github.com/jonathansee2013/project1" target="_blank">Source</a>
-          </div>
-        </div>
-      </div> -->
       <div class="project" id="project2">
-        <!-- <div class="content"> -->
-        <img src="img/pikq.png">
-        <div class="title-box">
-          <h4 class="title">PikQ</h4>
+        <div class="card">
+          <img src="img/pikq.png">
+          <div class="title-box">
+            <h4 class="title">PikQ</h4>
+            <p class="card-text">An interactive website where users can take photos of themselves, edit by filtering, putting the stickers and draw lines. These images can be saved and uploaded in Imgur.</p>
+            <div class="link">
+              <button><a href="https://pikq.herokuapp.com/" target="_blank">Demo</a></button>
+              <button><a href="https://github.com/Ryan-ruan/project2" target="_blank">Source</a></button>
+            </div>
+          </div>
         </div>
       </div>
-        <!-- </div> -->
-        <!-- <h4 class="title">PikQ</h4>
-          <p>An interactive website where users can take photos of themselves, edit by filtering, putting the stickers and draw lines. These images can be saved and uploaded in Imgur.</p>
-          <div class="link">
-            <a href="https://pikq.herokuapp.com/" target="_blank">Demo</a>
-            <a href="https://github.com/Ryan-ruan/project2" target="_blank">Source</a>
-          </div>
-        </div> -->
+
       <div class="project" id="project3">
-        <!-- <div class="content"> -->
-        <img src="img/corinthiansbliss.png">
-        <div class="title-box">
-          <h4 class="title">CorinthiansBliss</h4>
+        <div class="card">
+          <img src="img/corinthiansbliss.png">
+          <div class="title-box">
+            <h4 class="title">CorinthiansBliss</h4>
+            <p class="card-text">A dating website where users find their potential dates using the search function based on attributes and connecting with them using the message function.</p>
+            <div class="link">
+              <button><a href="https://corinthiansbliss.herokuapp.com/welcome" target="_blank">Demo</a></button>
+              <button><a href="https://github.com/jonathansee2013/project3" target="_blank">Source</a></button>
+            </div>
+          </div>
         </div>
       </div>
-        <!-- </div> -->
-        <!-- <h4 class="title">CorinthiansBliss</h4>
-          <p class="card-text">A dating website where users find their potential dates using the search function and connecting with them using the message function.</p>
-          <div class="link">
-            <a href="https://corinthiansbliss.herokuapp.com/welcome" target="_blank">Demo</a>
-            <a href="https://github.com/jonathansee2013/project3" target="_blank">Source</a>
-          </div>
-        </div> -->
+
     </div>
   </div>
 
@@ -175,16 +157,21 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-  <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
   <script>
-  $('.smooth').on('click', function() {
-      $.smoothScroll({
-          scrollElement: $('body'),
-          scrollTarget: '#' + this.id
-      });
+var myIndex = 0;
+carousel();
 
-      return false;
-  });
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2500);
+}
 </script>
 
 </body>
