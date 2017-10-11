@@ -427,8 +427,6 @@ button.source:hover {
 
 /*PAGE 3*/
 
-
-
   #skills ul li i {
     font-size: 400%;
   }
@@ -522,6 +520,24 @@ button.source:hover {
 	nav .menu-link {
 		display: none;
 	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
 
 /*====================================*/
 @media only screen and (max-width: 480px) {
