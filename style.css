@@ -59,6 +59,15 @@ nav ul li a {
   font-weight: 700;
 }
 
+nav ul li a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+nav .icon {
+	display: none;
+}
+
 .pages {
   width: 100vw;
   height: 100vh;
@@ -172,43 +181,67 @@ img {
 	font-size: 100%;
 }
 
+.link {
+	margin: 3%;
+}
+
 a {
 	text-decoration: none;
 	padding: 10%;
 }
 
-/*button {
-	padding: 4%;
-	border: 1px solid #404040;
-	border-radius: 8px;
-	background-color: #2274A5;
-}*/
-
-button {
+button.demo {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2bb850);
   background-image: -moz-linear-gradient(top, #3498db, #2bb850);
   background-image: -ms-linear-gradient(top, #3498db, #2bb850);
   background-image: -o-linear-gradient(top, #3498db, #2bb850);
   background-image: linear-gradient(to bottom, #3498db, #2bb850);
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #f2faf9;
+  /*font-size: 20px;*/
+  padding: 10px 20px;
   border: solid #296e99 1px;
   text-decoration: none;
 }
 
-button:hover {
+button.demo:hover {
   background: #fc3caf;
   background-image: -webkit-linear-gradient(top, #fc3caf, #d9bd34);
   background-image: -moz-linear-gradient(top, #fc3caf, #d9bd34);
   background-image: -ms-linear-gradient(top, #fc3caf, #d9bd34);
   background-image: -o-linear-gradient(top, #fc3caf, #d9bd34);
   background-image: linear-gradient(to bottom, #fc3caf, #d9bd34);
+  text-decoration: none;
+}
+
+button.source {
+  background: #fa8c05;
+  background-image: -webkit-linear-gradient(top, #fa8c05, #ff0a0a);
+  background-image: -moz-linear-gradient(top, #fa8c05, #ff0a0a);
+  background-image: -ms-linear-gradient(top, #fa8c05, #ff0a0a);
+  background-image: -o-linear-gradient(top, #fa8c05, #ff0a0a);
+  background-image: linear-gradient(to bottom, #fa8c05, #ff0a0a);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #f2faf9;
+  /*font-size: 20px;*/
+  padding: 10px 20px;
+  border: solid #296e99 1px;
+  text-decoration: none;
+}
+
+button.source:hover {
+  background: #3cedfa;
+  background-image: -webkit-linear-gradient(top, #3cedfa, #3c13ad);
+  background-image: -moz-linear-gradient(top, #3cedfa, #3c13ad);
+  background-image: -ms-linear-gradient(top, #3cedfa, #3c13ad);
+  background-image: -o-linear-gradient(top, #3cedfa, #3c13ad);
+  background-image: linear-gradient(to bottom, #3cedfa, #3c13ad);
   text-decoration: none;
 }
 
@@ -306,7 +339,7 @@ button:hover {
 /*PAGE 4*/
 
 	#works {
-		height: 140vh;
+		height: 160vh;
     padding-top: 20vh;
   }
 
@@ -400,6 +433,7 @@ button:hover {
 
   #works {
     padding-top: 20vh;
+		height: 230vh;
   }
 
   #works h3 {
@@ -408,12 +442,23 @@ button:hover {
   }
 
   .projects {
-    margin: 3% 10% 0 10%;
+    margin: 6% 20% 0 20%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 1fr;
     grid-gap: 3em;
     grid-auto-rows: minmax(80px, auto);
   }
+
+  .project {
+    margin: 0 auto;
+		width: 100%;
+  }
+
+	img {
+		max-height: auto;
+		max-width: 100%;
+		margin: 0 auto;
+	}
 
   .title {
     font-size: 100%;
@@ -464,7 +509,18 @@ button:hover {
 }
 
 /*====================================*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 602px) {
+
+	nav .icon {
+		display: inline;
+	}
+
+	nav .menu-link {
+		display: none;
+	}
+
+/*====================================*/
+@media only screen and (max-width: 480px) {
 
 /*PAGE 3*/
 
@@ -485,7 +541,7 @@ button:hover {
 /*PAGE 4*/
 
 	#works {
-		height: 180vh;
+		height: 200vh;
 		padding-top: 20vh;
 	}
 
@@ -494,7 +550,11 @@ button:hover {
 		padding: 5vh 0;
 	}
 
-  .projects {
+	.projects {
+    margin: 3% 10% 0 10%;
+	}
+
+  /*.projects {
 		grid-template-columns: 1fr;
 		grid-gap: 2em;
   }
@@ -502,7 +562,7 @@ button:hover {
   .project {
     margin: 0 auto;
 		width: 100%;
-  }
+  }*/
 
 	img {
 		max-height: auto;
