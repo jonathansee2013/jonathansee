@@ -366,6 +366,10 @@ button.source:hover {
 
 	/*PAGE 5*/
 
+	#contact-me {
+		height: 130vh;
+	}
+
 	#contact-me h3 {
 		font-size: 200%;
 		padding: 5vh 0;
@@ -408,7 +412,7 @@ button.source:hover {
 /*PAGE 1*/
 
   #intro h1 {
-    font-size: 200%;
+    font-size: 240%;
   }
 
 /*PAGE 2*/
@@ -418,7 +422,7 @@ button.source:hover {
   }
 
   #about h3 {
-    font-size: 180%;
+    font-size: 200%;
   }
 
 /*PAGE 3*/
