@@ -19,6 +19,7 @@ header {
   width: 100%;
   position: fixed;
   opacity: 0.9;
+	z-index: 10000;
 }
 
 .topnav {
@@ -43,6 +44,14 @@ header {
 .topnav .icon {
   display: none;
 	font-size: 150%;
+}
+
+.w3-content {
+	max-width: 500px;
+}
+
+.mySlides {
+	width:100%;
 }
 
 .pages {
@@ -328,7 +337,7 @@ button.source:hover {
 		margin: 3% 10% 0 10%;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 1em;
+		grid-gap: 4em;
 		grid-auto-rows: minmax(80px, auto);
 	}
 
